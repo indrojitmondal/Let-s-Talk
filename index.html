@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+              ,
+              backgroundImage: {
+                  'hero-pattern': "url('/img/hero-pattern.svg')",
+                  'footer-texture': "url('/img/footer-texture.png')",
+                  'bg-lcs': "url('./images/Main_Gate_of_Lakshmikhola_Collegiate_School.jpg')"
+             }
+            }
+          }
+
+        }
+      </script>
+</head>
+<body class="bg-bg-lcs bg-cover">
+    <div class="w-11/12 mx-auto mt-10  ">
+        <div class="card bg-base-100 w-96 shadow-xl bg-green-500 lg:mx-auto ">
+            <h3 class="pt-6 text-center font-bold text-lg">Lets Talk with Kashem Vai</h3>
+            <figure class="px-10 pt-10">
+              <img
+                src="images/456839603_3446033179024409_84277609062895941_n.jpg"
+                alt="Shoes"
+                class=" w-52 h-52" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Abul Kashem.</h2>
+              <p>Advocate at Supreme Court Of Bangladesh. <br> Ex-Lakshmikhola Collegiate School</p>
+              <div class="card-actions">
+                <a href="https://meet.google.com/vzp-rcgn-mhe" class="block">
+                    <button  class="btn btn-primary">Join at 5.00PM</button>
+                </a>
+             
+              </div>
+            </div>
+          </div> 
+    </div>
+   
+</body>
+</html>
